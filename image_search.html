@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+              integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="search.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="topnav">
+                    <a href="search.html">Google Search</a>
+                    <a href="advanced_search.html">Advanced Search</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="logo">
+                    <img src="images_logo.jpg" alt="logo">
+                </div>
+            </div>
+            <form action="https://google.com/images">
+                <div id="search_window">
+                    <div id="wrapper">
+                        <input type="text" style="border:none" autocorrect="off" autocapitalize="off"  name="q" />
+                    </div>
+                    <input type="submit" style="display: none">
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="search_buttons">
+                            <input type="submit" value="Google Search">
+                            <input type="submit" value="I'm feeling lucky">
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </body>
+</html>
